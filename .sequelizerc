@@ -1,0 +1,9 @@
+require("@babel/register");
+
+const path = require('path');
+console.log('path', path);
+console.log('path.resolve', path.resolve('config'))
+
+module.exports = {
+  'config': path.resolve('config', 'database.config.js')
+}

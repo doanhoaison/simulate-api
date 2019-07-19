@@ -8,13 +8,15 @@ module.exports = {
     host: CONFIG.db_host,
     port: CONFIG.db_port,
     dialect: CONFIG.db_dialect,
-    // operatorsAliases: false,
-    // define: {
-    //   underscored: true,
-    //   charset: "utf8mb4",
-    //   dialectOptions: {
-    //     collate: "utf8mb4_unicode_ci"
-    //   }
-    // }
+    define: {
+      underscored: true,
+      charset: "utf8mb4",
+      dialectOptions: {
+        collate: "utf8mb4_unicode_ci",
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+      }
+    }
   }
 };

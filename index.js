@@ -20,7 +20,7 @@ app.use(morgan("combined", { stream: logger.stream }));
 //PARSE APLICATION/JSON
 app.use(bodyParser.json());
 //PARSE APPLICATION/X-WWW-FORM-URLENCODED
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/v1", v1);
 

@@ -1,6 +1,6 @@
 import express from "express";
 import { ReS, ReE, TO } from "../services/utils/util.service";
-import models from '../models';
+import * as userControllers from '../controllers/user.controller';
 
 const router = express.Router();
 
@@ -8,6 +8,7 @@ router.post("/users/login", async (req, res) => {
   return ReS(res, { body: "Hello World", isForceOTP: true });
 });
 
-router.post("/users/register", async (req, res) => {
-})
+router.post("/users/register", userControllers.register);
+router.post("/users/user-info",userControllers.getUserInfo);
+
 module.exports = router;

@@ -19,6 +19,7 @@ app.use(morgan("combined", { stream: logger.stream }));
 
 //PARSE APLICATION/JSON
 app.use(bodyParser.json());
+
 //PARSE APPLICATION/X-WWW-FORM-URLENCODED
 app.use(bodyParser.urlencoded({ extended: true }));
 

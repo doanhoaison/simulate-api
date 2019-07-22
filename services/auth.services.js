@@ -3,25 +3,28 @@ import { to, TO } from "../services/utils/util.service";
 import models, { User } from "../models";
 
 export const createUser = async userInfo => {
-  [err] = await models.User.create({
-    ...userInfo
-  })
-    .then(data => console.log("addd successfully"))
-    .catch(error => logger.error(error));
+  let err, user;
 
-  if (err) {
+  [ err, user ] = await to(
+    User.create({
+      ...userInfo
+    })
+  );
+
+  if(err) {
+    logger.error(err);
     throw err;
   }
 
-  return users;
+  return user;
 };
 
 export const getUser = async req => {
-  const { id } = req;
-  console.log("id:", id);
+  console.log('req: ', req);
+  const { phone } = req;
 
   const where = {
-    id
+    phone
   };
   let err, user;
 

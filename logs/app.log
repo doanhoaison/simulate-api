@@ -392,3 +392,144 @@ undefined
 2019-07-26T03:52:51.382Z [info] : Connected to SQL database: simulate : 
 2019-07-26T03:53:03.669Z [info] : App is running on PORT 5000 : 
 2019-07-26T03:53:03.774Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:03:47.467Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:03:47.569Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:06:59.858Z [info] : User:  : 
+2019-07-26T04:07:16.714Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:07:16.858Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:07:19.184Z [info] : User:  : 
+2019-07-26T04:08:17.707Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:08:17.949Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:08:22.862Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:08:22.983Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:08:25.278Z [info] : User:  : 
+2019-07-26T04:10:18.565Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:10:18.801Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:10:20.944Z [info] : User:  : 
+2019-07-26T04:11:04.893Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:11:05.143Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:11:50.867Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:11:51.111Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:12:47.226Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:12:47.451Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:14:07.504Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:14:07.751Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:15:08.317Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:15:08.445Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:15:12.650Z [error] : errCannot read property 'PHONE_NOT_REGISTER' of undefined : 
+2019-07-26T04:15:44.378Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:15:44.546Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:15:57.220Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:15:57.357Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:16:16.918Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:16:17.062Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:16:24.886Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:16:25.174Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:16:43.478Z [error] : errCannot read property 'PHONE_NOT_REGISTER' of undefined : 
+2019-07-26T04:17:47.778Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:17:47.943Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:17:51.518Z [error] : errCannot read property 'BAD_REQUEST' of undefined : 
+2019-07-26T04:18:18.137Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:18:18.271Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:18:22.677Z [error] : errCannot read property 'BAD_REQUEST' of undefined : 
+2019-07-26T04:18:59.407Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:18:59.524Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:19:03.415Z [error] : errerrCode is not defined : 
+2019-07-26T04:19:25.754Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:19:25.932Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:19:30.427Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:19:30.594Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:19:34.901Z [error] : errThis phone is not register : 
+2019-07-26T04:19:34.963Z [info] : ::1 - - [26/Jul/2019:04:19:34 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T04:42:45.075Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:42:45.206Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:48:10.088Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:48:10.379Z [info] : Connected to SQL database: simulate : 
+2019-07-26T04:48:19.150Z [error] : errThis phone is not register : 
+2019-07-26T04:48:19.219Z [info] : ::1 - - [26/Jul/2019:04:48:19 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T04:49:19.871Z [info] : App is running on PORT 5000 : 
+2019-07-26T04:49:20.029Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:11:15.518Z [error] : errThis phone is not register : 
+2019-07-26T05:11:15.632Z [info] : ::1 - - [26/Jul/2019:05:11:15 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:13:10.221Z [info] : ::1 - - [26/Jul/2019:05:13:10 +0000] "POST /v1/users/login HTTP/1.1" - - "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:15:10.242Z [info] : ::1 - - [26/Jul/2019:05:15:10 +0000] "POST /v1/users/login HTTP/1.1" - - "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:15:14.227Z [error] : errThis phone is not register : 
+2019-07-26T05:15:14.299Z [info] : ::1 - - [26/Jul/2019:05:15:14 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:15:36.164Z [error] : errThis phone is not register : 
+2019-07-26T05:15:36.206Z [info] : ::1 - - [26/Jul/2019:05:15:36 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:15:51.992Z [error] : errThis phone is not register : 
+2019-07-26T05:15:51.994Z [info] : ::1 - - [26/Jul/2019:05:15:51 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:17:09.614Z [info] : ::1 - - [26/Jul/2019:05:17:09 +0000] "POST /v1/users/login HTTP/1.1" - - "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:17:27.099Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:17:27.205Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:19:16.392Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:19:16.497Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:24:19.841Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:24:20.021Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:24:22.112Z [error] : errThis phone is not register : 
+2019-07-26T05:24:22.139Z [info] : ::1 - - [26/Jul/2019:05:24:22 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:25:30.604Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:25:30.759Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:25:32.201Z [error] : This phone is not register : 
+2019-07-26T05:25:32.266Z [info] : ::1 - - [26/Jul/2019:05:25:32 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:26:12.552Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:26:12.684Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:27:04.360Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:27:04.551Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:27:40.997Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:27:41.103Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:27:47.612Z [info] : [object Object] : 
+2019-07-26T05:27:47.655Z [error] : This phone is not register : 
+2019-07-26T05:27:47.852Z [info] : ::1 - - [26/Jul/2019:05:27:47 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:29:38.636Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:29:38.760Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:30:24.085Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:30:24.241Z [info] : [object Object] : 
+2019-07-26T05:30:24.290Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:30:24.293Z [error] : This phone is not register : 
+2019-07-26T05:30:24.324Z [info] : ::1 - - [26/Jul/2019:05:30:24 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:34:40.080Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:34:40.252Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:35:03.550Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:35:03.668Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:35:34.342Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:35:34.511Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:35:37.921Z [info] : [object Object] : 
+2019-07-26T05:35:38.022Z [error] : This phone is not register : 
+2019-07-26T05:35:38.077Z [info] : ::1 - - [26/Jul/2019:05:35:38 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:36:18.871Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:36:18.990Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:36:22.958Z [info] : [object Object] : 
+2019-07-26T05:36:22.988Z [error] : This phone is not register : 
+2019-07-26T05:36:23.000Z [info] : ::1 - - [26/Jul/2019:05:36:22 +0000] "POST /v1/users/login HTTP/1.1" 400 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:36:40.738Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:36:40.860Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:36:49.191Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:36:49.341Z [info] : [object Object] : 
+2019-07-26T05:36:49.447Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:36:49.452Z [error] : This phone is not register : 
+2019-07-26T05:36:49.542Z [info] : ::1 - - [26/Jul/2019:05:36:49 +0000] "POST /v1/users/login HTTP/1.1" undefined 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 
+2019-07-26T05:36:58.430Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:36:58.541Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:37:36.557Z [info] : App is running on PORT 5000 : 
+2019-07-26T05:37:36.673Z [info] : Connected to SQL database: simulate : 
+2019-07-26T05:37:39.437Z [info] : [object Object] : 
+2019-07-26T05:37:39.485Z [error] : This phone is not register : 
+2019-07-26T05:37:39.542Z [info] : ::1 - - [26/Jul/2019:05:37:39 +0000] "POST /v1/users/login HTTP/1.1" 400 62 "http://localhost:3000/auth/log-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+ : 

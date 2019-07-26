@@ -30,11 +30,6 @@ let userFormat = combine(
 )
 
 var logger = new winston.createLogger({
-    // format: combine(
-    //   splat(),
-    //   timestamp(),
-    //   myFormat,
-    // ),
     format: userFormat,
     transports: [
       new winston.transports.File(options.file),

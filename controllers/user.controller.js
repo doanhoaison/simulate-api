@@ -1,7 +1,8 @@
 import models from '../models';
 import * as authServices from '../services/auth.services';
 import logger from '../config/winston';
-import { ReS, TO } from '../services/utils/util.service';
+import { ReS, TO, handleError } from '../services/utils/util.service';
+
 
 export const register =  async (req, res) => {
     const body = req.body;
@@ -23,7 +24,8 @@ export const getUserInfo = async(req, res) => {
 
     if (err) {
       logger.error("err", err);
-      return err;
+    //   return err;
+    handleError(res, err);
     }
     logger.info("User: ", user);
 

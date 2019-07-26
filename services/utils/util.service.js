@@ -2,6 +2,7 @@ import { to } from 'await-to-js'
 var logger = require("../../config/winston");
 // import logger from '../../config/winston';
 import { errorCode } from '../../constants/response-code';
+import { ClientError } from '../../errors';
 
 
 module.exports.to = async (promise) => {
@@ -76,4 +77,12 @@ export const TE = (errMessage, log = false, errorCode = null) => { // TE stands 
   }
 
   throw error
+}
+
+export const handleError = (response, error) => {
+  if(error instanceof ClientError ) {
+    return response
+      .status(errorCode.BAD_REQUEST)
+      .json({ error: { message: error.message, code: error.code } });
+  }
 }

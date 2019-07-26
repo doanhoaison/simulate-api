@@ -2,6 +2,9 @@ import logger from "../config/winston";
 import { to, TO } from "../services/utils/util.service";
 import models, { User } from "../models";
 
+import { ClientError } from '../errors/index';
+import { errCode } from '../constants/response-code';
+
 export const createUser = async userInfo => {
   let err, user;
 
@@ -13,7 +16,6 @@ export const createUser = async userInfo => {
 
   if(err) {
     logger.error(err);
-    throw err;
   }
 
   return user;
@@ -35,7 +37,8 @@ export const getUser = async req => {
   );
 
   if (err) {
-    throw err;
+    // throw err;
+    throw new ClientError('This phone is not register', errCode.PHONE_NOT_REGISTER);
   }
   return user;
 };
